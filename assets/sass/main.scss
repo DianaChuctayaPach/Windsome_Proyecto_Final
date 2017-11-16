@@ -10,8 +10,18 @@ nav{
 *{
     // outline: 1px solid red;
 }
+#nav{
+    a{
+        color: white;
+    }
+}
 #home{
     height: 95vh;
+    
+}
+.seccion-amarillo{
+    height: 30vh;
+    background: #FF9900;
     
 }
 .contact-img {

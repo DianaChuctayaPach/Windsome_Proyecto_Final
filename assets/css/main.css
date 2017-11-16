@@ -198,8 +198,15 @@ footer {
 nav #myNavbar {
   float: right; }
 
+#nav a {
+  color: white; }
+
 #home {
   height: 95vh; }
+
+.seccion-amarillo {
+  height: 30vh;
+  background: #FF9900; }
 
 .contact-img label {
   color: white;
