@@ -2,15 +2,31 @@
 @import 'parciales/_menu.scss';
 @import 'parciales/_footer.scss';
 @import 'parciales/_media.scss';
+@import 'parciales/_ABOUT-US.scss';
+@import 'parciales/_contact.scss';
+@import 'parciales/_numeros.scss';
+@import 'parciales/_service.scss';
 nav{
     #myNavbar{
         float: right;
     }
 }
 *{
-    outline: 1px solid red;
+    // outline: 1px solid red;
+    font-family: 'Raleway', sans-serif;
 }
-
+#flecha{
+    padding: 20px;
+    background: #FF9900;
+    padding: 40px;
+    position: fixed;
+    z-index: 100;
+    #icon-flecha{
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+    }
+}
 nav {
     a{
         color: black !important;
@@ -24,65 +40,4 @@ nav {
     height: 30vh;
     background: #FF9900;
     
-}
-.contact-img {
-
-    label{
-        color: white;
-        font-size: 17px;
-        font-weight: normal;
-    }
-    textarea{
-        width: 100%;
-    }
-    #input-nombre{
-        width: 100%;
-        height: 8.5vh;
-    }
-    .titulo{
-        margin-top: 20vh;
-        margin-bottom: 40px;
-        hr{
-            // height: 1px;
-            background: #FF9900;
-            width: 60%;
-            border: 0.5px solid #FF9900;
-            // position: absolute;
-        }
-         h1{
-        position: relative;
-            margin-top: -25px;
-        }
-        #izquierda{
-            margin-right: -5px;
-        }
-        #derecha{
-            margin-left: -5px;
-        }
-       
-    }
-     .send{
-            width: 100%;
-            background: transparent;
-            border: 1px solid #FF9900;
-            color:#FF9900;
-
-            padding: 1.5vh;
-            
-        }
-        .send:hover{
-            background: #FF9900;
-            color: white;
-        }
-    hr{
-        width: 100%;
-        margin-top: -10px;
-    }
-    h4{
-        color: white;
-    }
-    a{
-        color: white;
-        text-decoration: none;
-    }
 }

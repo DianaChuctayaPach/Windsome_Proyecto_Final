@@ -161,14 +161,6 @@
   position: fixed;
   color: black; }
 
-#carrusel-img1 {
-  background-image: url(../img/pexels-photo-370470.jpeg);
-  height: 100vh; }
-
-#carrusel-img2 {
-  background-image: url(../img/pexels-photo-374074.jpeg);
-  height: 100vh; }
-
 footer {
   background: black;
   padding: 5vh;
@@ -179,21 +171,29 @@ footer {
   footer .texto2 {
     margin-right: 30px !important; }
 
-nav #myNavbar {
-  float: right; }
-
-* {
-  outline: 1px solid red; }
-
-nav a {
-  color: black !important; }
-
-#home {
-  height: 95vh; }
-
-.seccion-amarillo {
-  height: 30vh;
-  background: #FF9900; }
+.ABOUT-US img {
+  width: 100%;
+  height: 360px; }
+.ABOUT-US .titulo {
+  margin-top: 10vh;
+  margin-bottom: 40px; }
+  .ABOUT-US .titulo hr {
+    background: #FF9900;
+    width: 60%;
+    border: 0.5px solid #FF9900; }
+  .ABOUT-US .titulo h1 {
+    position: relative;
+    margin-top: 0px;
+    color: black;
+    font-weight: bold; }
+  .ABOUT-US .titulo #izquierda {
+    margin-right: -5px; }
+  .ABOUT-US .titulo #derecha {
+    margin-left: -5px; }
+.ABOUT-US .progress-bar-warning {
+  background-color: #FF9900; }
+.ABOUT-US .progress-bar {
+  height: 15px; }
 
 .contact-img label {
   color: white;
@@ -235,5 +235,75 @@ nav a {
 .contact-img a {
   color: white;
   text-decoration: none; }
+
+#numeros {
+  height: 50vh;
+  background-image: url(https://promenadethemes.com/demo/winsome/onepage/wp-content/uploads/sites/2/2017/03/roundtable-828546.jpg);
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  background-repet: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed; }
+
+#number {
+  font-size: 10rem;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  margin-top: 50px; }
+
+.service {
+  padding: 10vh 0vh 20vh 0vh; }
+  .service .titulo {
+    margin-top: 10vh;
+    margin-bottom: 40px; }
+    .service .titulo hr {
+      background: #FF9900;
+      width: 60%;
+      border: 0.5px solid #FF9900; }
+    .service .titulo h1 {
+      position: relative;
+      margin-top: 0px;
+      color: black;
+      font-weight: bold; }
+    .service .titulo #izquierda {
+      margin-right: -5px; }
+    .service .titulo #derecha {
+      margin-left: -5px; }
+  .service #icon {
+    color: white;
+    font-size: 25px;
+    border-radius: 50px;
+    background: #FF9900;
+    padding: 15px; }
+
+nav #myNavbar {
+  float: right; }
+
+* {
+  font-family: 'Raleway', sans-serif; }
+
+#flecha {
+  padding: 20px;
+  background: #FF9900;
+  padding: 40px;
+  position: fixed;
+  z-index: 100; }
+  #flecha #icon-flecha {
+    color: white;
+    font-weight: bold;
+    font-size: 20px; }
+
+nav a {
+  color: black !important; }
+
+#home {
+  height: 95vh; }
+
+.seccion-amarillo {
+  height: 30vh;
+  background: #FF9900; }
 
 /*# sourceMappingURL=main.css.map */

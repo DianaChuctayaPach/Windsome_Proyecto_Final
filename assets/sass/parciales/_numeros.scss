@@ -1,0 +1,19 @@
+#numeros{
+    height:50vh;
+    background-image: url(https://promenadethemes.com/demo/winsome/onepage/wp-content/uploads/sites/2/2017/03/roundtable-828546.jpg);
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    background-repet: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+}
+#number {
+  font-size: 10rem;
+  font-weight: bold;
+//   font-family: helvetica;
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+}
