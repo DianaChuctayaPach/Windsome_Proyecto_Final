@@ -265,8 +265,7 @@ footer {
       color: #787878; }
 
 .WHAT-ELSE {
-  padding-bottom: 10vh;
-  background-color: #FF9900; }
+  padding-bottom: 10vh; }
   .WHAT-ELSE .titulo {
     margin-top: 10vh;
     margin-bottom: 40px; }
@@ -288,17 +287,18 @@ footer {
   .WHAT-ELSE .progress-bar {
     height: 15px; }
 
-#what {
-  background: #FF9900; }
-  #what img {
-    height: 50vh;
-    width: 500px; }
+#what img {
+  height: 50vh;
+  width: 500px; }
 
 nav #myNavbar {
   float: right; }
 
 * {
   font-family: 'Raleway', sans-serif; }
+
+.espacio {
+  height: 10vh; }
 
 #flecha {
   padding: 20px;
