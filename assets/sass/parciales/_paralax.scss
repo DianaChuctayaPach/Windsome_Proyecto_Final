@@ -1,52 +1,9 @@
-* {
-  box-sizing: border-box;
-}
-
-html, body {
-  margin: 0;
-  padding: 0;
-  background-color: #fff;
-  font-family: "Montserrat", sans-serif;
-  line-height: 1.8;
-  color: #777;
-}
-.navbar {
-  width: 100%;
-  position: fixed;
-  background-color: #cccafa;
-}
-.navbar a {
-  display: block;
-  float: left;
-  padding: 10px 15px;
-  color: #000;
-  text-decoration: none;
-  font-size: 1.2em;
-  opacity: 0.65;
-
-}
-.navbar a:hover {
-  background-color: #aaaaca;
-  opacity: 1;
-}
-.nav-scroll {
-  color: white;
-  background-color: silver;
-  z-index: 1;
-}
-
-i {
-  padding: 3px 4px;
-}
-
-.home::before {
-  content: "";
-  display: table;
-  clear: both;
-}
+// * {
+//   box-sizing: border-box;
+// }
 
 .home {
-  min-height: 100vh;
+  height: 100vh;
   background-image: url("https://placeimg.com/1000/900/people");
   background-repet: no-repeat;
   background-size: cover;

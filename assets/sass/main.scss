@@ -8,11 +8,12 @@ nav{
     }
 }
 *{
-    // outline: 1px solid red;
+    outline: 1px solid red;
 }
-#nav{
+
+nav {
     a{
-        color: white;
+        color: black !important;
     }
 }
 #home{

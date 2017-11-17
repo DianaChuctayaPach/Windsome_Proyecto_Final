@@ -1,47 +1,5 @@
-* {
-  box-sizing: border-box; }
-
-html, body {
-  margin: 0;
-  padding: 0;
-  background-color: #fff;
-  font-family: "Montserrat", sans-serif;
-  line-height: 1.8;
-  color: #777; }
-
-.navbar {
-  width: 100%;
-  position: fixed;
-  background-color: #cccafa; }
-
-.navbar a {
-  display: block;
-  float: left;
-  padding: 10px 15px;
-  color: #000;
-  text-decoration: none;
-  font-size: 1.2em;
-  opacity: 0.65; }
-
-.navbar a:hover {
-  background-color: #aaaaca;
-  opacity: 1; }
-
-.nav-scroll {
-  color: white;
-  background-color: silver;
-  z-index: 1; }
-
-i {
-  padding: 3px 4px; }
-
-.home::before {
-  content: "";
-  display: table;
-  clear: both; }
-
 .home {
-  min-height: 100vh;
+  height: 100vh;
   background-image: url("https://placeimg.com/1000/900/people");
   background-repet: no-repeat;
   background-size: cover;
@@ -185,6 +143,32 @@ i {
   font-weight: bold;
   margin: 0; }
 
+.navbar-nav > li a:hover {
+  color: #FF9900 !important; }
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.055);
+  color: black !important;
+  transition: all 0.15s ease;
+  position: absolute;
+  padding: 30px 10px;
+  width: 100%;
+  z-index: 100;
+  margin-bottom: 0 !important; }
+
+.navbar.navbar-scroll {
+  background-color: white;
+  position: fixed;
+  color: black; }
+
+#carrusel-img1 {
+  background-image: url(../img/pexels-photo-370470.jpeg);
+  height: 100vh; }
+
+#carrusel-img2 {
+  background-image: url(../img/pexels-photo-374074.jpeg);
+  height: 100vh; }
+
 footer {
   background: black;
   padding: 5vh;
@@ -198,8 +182,11 @@ footer {
 nav #myNavbar {
   float: right; }
 
-#nav a {
-  color: white; }
+* {
+  outline: 1px solid red; }
+
+nav a {
+  color: black !important; }
 
 #home {
   height: 95vh; }
