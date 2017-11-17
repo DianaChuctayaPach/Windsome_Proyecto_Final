@@ -1,0 +1,69 @@
+
+.welcome-img {
+  width: 100%;
+  height: 60vh;
+  background:linear-gradient(to right, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.295)),url("https://promenadethemes.com/demo/winsome/onepage/wp-content/uploads/sites/2/2017/10/interior-2591367_1920.jpg");
+  background-repet: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+
+    .titulo{
+        margin-top: 10vh;
+        margin-bottom: 40px;
+        hr{
+            // height: 1px;
+            background: #FF9900;
+            width: 60%;
+            border: 1px solid #FF9900;
+            // position: absolute;
+        }
+         h1{
+            position: relative;
+            margin-top: 0px;
+            color: white;
+            font-weight: bold;
+        }
+        #izquierda{
+            margin-right: -5px;
+        }
+        #derecha{
+            margin-left: -5px;
+        }
+       
+    }
+    p{
+        color: white;
+        font-size: 17px;
+    }
+    .todo-botones{
+        margin-top: 5vh;
+    }
+    .boton-2{
+            width: 100%;
+            background: transparent;
+            border: 1px solid #FF9900;
+            color:#FF9900;
+
+            padding: 2vh;
+            
+        }
+        .boton-2:hover{
+            background:#FF9900;
+            color: white;
+        }
+    .boton-1{
+            width: 100%;
+            background: #FF9900;
+            border: 1px solid #FF9900;
+            color:white;
+
+            padding: 2vh;
+            
+        }
+        .boton-1:hover{
+            background: transparent;
+            color: #FF9900;
+        }
+
+}

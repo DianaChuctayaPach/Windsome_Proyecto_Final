@@ -6,6 +6,9 @@
 @import 'parciales/_contact.scss';
 @import 'parciales/_numeros.scss';
 @import 'parciales/_service.scss';
+@import 'parciales/_WELCOME.scss';
+@import 'parciales/_OUR-TEAM.scss';
+@import 'parciales/_WHAT-ELSE.scss';
 nav{
     #myNavbar{
         float: right;
@@ -15,6 +18,7 @@ nav{
     // outline: 1px solid red;
     font-family: 'Raleway', sans-serif;
 }
+
 #flecha{
     padding: 20px;
     background: #FF9900;

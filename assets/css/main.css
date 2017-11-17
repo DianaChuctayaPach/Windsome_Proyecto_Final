@@ -1,114 +1,3 @@
-.home {
-  height: 100vh;
-  background-image: url("https://placeimg.com/1000/900/people");
-  background-repet: no-repeat;
-  background-size: cover;
-  background-position: top center;
-  background-attachment: fixed; }
-
-.home h1 {
-  position: absolute;
-  top: 15%;
-  right: 10%;
-  font-size: 4em;
-  z-index: 0;
-  color: #000; }
-
-.about {
-  padding: 50px 164px;
-  text-align: justify;
-  height: 1750px; }
-
-.about h3 {
-  text-align: center; }
-
-.about p:nth-child(2) {
-  text-align: center;
-  font-style: italic; }
-
-.wrapper-about {
-  width: 100%; }
-
-.wrapper-about::before {
-  content: "";
-  display: table;
-  clear: both; }
-
-.wrapper-about::after {
-  content: "";
-  display: table;
-  clear: both; }
-
-.content-about-left {
-  float: left;
-  width: 50%;
-  text-align: center;
-  padding: 15px; }
-
-.content-about-left img {
-  width: 100%; }
-
-.content-about-right {
-  float: right;
-  width: 50%;
-  text-align: justify;
-  padding: 15px; }
-
-.skills::before {
-  content: "";
-  display: table;
-  clear: both; }
-
-.skills {
-  text-align: center; }
-
-.skills p:nth-child(even) {
-  text-align: left;
-  font-style: normal;
-  letter-spacing: 2px;
-  margin-bottom: 8px; }
-
-.html-skill {
-  color: #000 !important;
-  background: #f1f1f1 !important;
-  width: 100%;
-  margin-bottom: 40px; }
-
-.html-skill div {
-  width: 90%;
-  color: #fff;
-  background-color: #616161;
-  padding: 8px 0; }
-
-.css3-skill {
-  color: #000 !important;
-  background: #f1f1f1 !important;
-  width: 100%;
-  margin-bottom: 40px; }
-
-.css3-skill div {
-  width: 75%;
-  color: #fff;
-  background-color: #616161;
-  padding: 8px 0; }
-
-.js-skill {
-  color: #000 !important;
-  background: #f1f1f1 !important;
-  width: 100%;
-  margin-bottom: 40px; }
-
-.js-skill div {
-  width: 12%;
-  color: #fff;
-  background-color: #616161;
-  padding: 8px 0; }
-
-.skills::after {
-  content: "";
-  display: table;
-  clear: both; }
-
 .about-img {
   width: 100%;
   height: 400px;
@@ -171,29 +60,31 @@ footer {
   footer .texto2 {
     margin-right: 30px !important; }
 
-.ABOUT-US img {
-  width: 100%;
-  height: 360px; }
-.ABOUT-US .titulo {
-  margin-top: 10vh;
-  margin-bottom: 40px; }
-  .ABOUT-US .titulo hr {
-    background: #FF9900;
-    width: 60%;
-    border: 0.5px solid #FF9900; }
-  .ABOUT-US .titulo h1 {
-    position: relative;
-    margin-top: 0px;
-    color: black;
-    font-weight: bold; }
-  .ABOUT-US .titulo #izquierda {
-    margin-right: -5px; }
-  .ABOUT-US .titulo #derecha {
-    margin-left: -5px; }
-.ABOUT-US .progress-bar-warning {
-  background-color: #FF9900; }
-.ABOUT-US .progress-bar {
-  height: 15px; }
+.ABOUT-US {
+  padding-bottom: 10vh; }
+  .ABOUT-US img {
+    width: 100%;
+    height: 360px; }
+  .ABOUT-US .titulo {
+    margin-top: 10vh;
+    margin-bottom: 40px; }
+    .ABOUT-US .titulo hr {
+      background: #FF9900;
+      width: 60%;
+      border: 0.5px solid #FF9900; }
+    .ABOUT-US .titulo h1 {
+      position: relative;
+      margin-top: 0px;
+      color: black;
+      font-weight: bold; }
+    .ABOUT-US .titulo #izquierda {
+      margin-right: -5px; }
+    .ABOUT-US .titulo #derecha {
+      margin-left: -5px; }
+  .ABOUT-US .progress-bar-warning {
+    background-color: #FF9900; }
+  .ABOUT-US .progress-bar {
+    height: 15px; }
 
 .contact-img label {
   color: white;
@@ -236,23 +127,34 @@ footer {
   color: white;
   text-decoration: none; }
 
-#numeros {
-  height: 50vh;
-  background-image: url(https://promenadethemes.com/demo/winsome/onepage/wp-content/uploads/sites/2/2017/03/roundtable-828546.jpg);
-  position: fixed;
-  z-index: 10;
+.count {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: white; }
+
+#number {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: white; }
+
+.numeros-img {
   width: 100%;
+  height: 55vh;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.295)), url("https://promenadethemes.com/demo/winsome/onepage/wp-content/uploads/sites/2/2017/03/roundtable-828546.jpg");
   background-repet: no-repeat;
   background-size: cover;
   background-position: top center;
   background-attachment: fixed; }
-
-#number {
-  font-size: 10rem;
-  font-weight: bold;
-  text-align: center;
-  color: white;
-  margin-top: 50px; }
+  .numeros-img #todos-numeros {
+    margin-top: 10vh;
+    color: white; }
+  .numeros-img #icono-num {
+    color: white;
+    font-size: 40px; }
+  .numeros-img span {
+    font-size: 16px; }
 
 .service {
   padding: 10vh 0vh 20vh 0vh; }
@@ -278,6 +180,119 @@ footer {
     border-radius: 50px;
     background: #FF9900;
     padding: 15px; }
+
+.espacio {
+  height: 5vh; }
+
+.welcome-img {
+  width: 100%;
+  height: 60vh;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.295)), url("https://promenadethemes.com/demo/winsome/onepage/wp-content/uploads/sites/2/2017/10/interior-2591367_1920.jpg");
+  background-repet: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed; }
+  .welcome-img .titulo {
+    margin-top: 10vh;
+    margin-bottom: 40px; }
+    .welcome-img .titulo hr {
+      background: #FF9900;
+      width: 60%;
+      border: 1px solid #FF9900; }
+    .welcome-img .titulo h1 {
+      position: relative;
+      margin-top: 0px;
+      color: white;
+      font-weight: bold; }
+    .welcome-img .titulo #izquierda {
+      margin-right: -5px; }
+    .welcome-img .titulo #derecha {
+      margin-left: -5px; }
+  .welcome-img p {
+    color: white;
+    font-size: 17px; }
+  .welcome-img .todo-botones {
+    margin-top: 5vh; }
+  .welcome-img .boton-2 {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #FF9900;
+    color: #FF9900;
+    padding: 2vh; }
+  .welcome-img .boton-2:hover {
+    background: #FF9900;
+    color: white; }
+  .welcome-img .boton-1 {
+    width: 100%;
+    background: #FF9900;
+    border: 1px solid #FF9900;
+    color: white;
+    padding: 2vh; }
+  .welcome-img .boton-1:hover {
+    background: transparent;
+    color: #FF9900; }
+
+.our-teme {
+  height: 100vh;
+  padding: 10vh 0vh 10vh 0; }
+  .our-teme img {
+    width: 100%; }
+  .our-teme .titulo {
+    margin-top: 10vh;
+    margin-bottom: 40px; }
+    .our-teme .titulo hr {
+      background: #FF9900;
+      width: 60%;
+      border: 1px solid #FF9900; }
+    .our-teme .titulo h1 {
+      position: relative;
+      margin-top: 0px;
+      color: #000;
+      font-weight: bold; }
+    .our-teme .titulo #izquierda {
+      margin-right: -5px; }
+    .our-teme .titulo #derecha {
+      margin-left: -5px; }
+  .our-teme .datos a {
+    color: #FF9900; }
+  .our-teme .datos ul {
+    display: inline-block; }
+  .our-teme .datos li {
+    text-decoration: none;
+    list-style: none;
+    display: inline; }
+    .our-teme .datos li a {
+      color: #787878; }
+
+.WHAT-ELSE {
+  padding-bottom: 10vh;
+  background-color: #FF9900; }
+  .WHAT-ELSE .titulo {
+    margin-top: 10vh;
+    margin-bottom: 40px; }
+    .WHAT-ELSE .titulo hr {
+      background: #FFF;
+      width: 60%;
+      border: 0.5px solid white; }
+    .WHAT-ELSE .titulo h1 {
+      position: relative;
+      margin-top: 0px;
+      color: white;
+      font-weight: bold; }
+    .WHAT-ELSE .titulo #izquierda {
+      margin-right: -5px; }
+    .WHAT-ELSE .titulo #derecha {
+      margin-left: -5px; }
+  .WHAT-ELSE .progress-bar-warning {
+    background-color: #FF9900; }
+  .WHAT-ELSE .progress-bar {
+    height: 15px; }
+
+#what {
+  background: #FF9900; }
+  #what img {
+    height: 50vh;
+    width: 500px; }
 
 nav #myNavbar {
   float: right; }

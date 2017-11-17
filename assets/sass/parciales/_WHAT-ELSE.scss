@@ -1,19 +1,21 @@
-.service{
-    padding: 10vh 0vh 20vh 0vh;
+.WHAT-ELSE{
+   padding-bottom: 10vh;
+   background-color: #FF9900;
+ 
     .titulo{
         margin-top: 10vh;
         margin-bottom: 40px;
         hr{
             // height: 1px;
-            background: #FF9900;
+            background: #FFF;
             width: 60%;
-            border: 0.5px solid #FF9900;
+            border: 0.5px solid white;
             // position: absolute;
         }
          h1{
             position: relative;
             margin-top: 0px;
-            color: black;
+            color: white;
             font-weight: bold;
         }
         #izquierda{
@@ -24,15 +26,18 @@
         }
        
     }
-    #icon{
-        color: white;
-        // font-weight: bold;
-        font-size: 25px;
-        border-radius: 50px;
-        background: #FF9900;
-        padding: 15px;
+    .progress-bar-warning {
+    background-color:#FF9900 ; 
+    //  height: 15px; 
+    }
+    .progress-bar{
+        height: 15px;
     }
 }
-.espacio{
-    height: 5vh;
+#what{
+    background: #FF9900;
+    img{
+        height:50vh;
+        width: 500px;
+    }
 }

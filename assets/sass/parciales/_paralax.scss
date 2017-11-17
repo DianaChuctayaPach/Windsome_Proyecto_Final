@@ -1,121 +1,101 @@
-// * {
-//   box-sizing: border-box;
+
+// .about {
+//   padding: 50px 164px;
+//   text-align: justify;
+//   height: 1750px;
+// }
+// .about h3 {
+//   text-align: center;
+// }
+// .about  p:nth-child(2) {
+//   text-align: center;
+//   font-style: italic;
+// }
+// .wrapper-about {
+//   width: 100%;
+// }
+// .wrapper-about::before {
+//   content: "";
+//     display: table;
+//     clear: both;
+// }
+// .wrapper-about::after {
+//   content: "";
+//     display: table;
+//     clear: both;
 // }
 
-.home {
-  height: 100vh;
-  background-image: url("https://placeimg.com/1000/900/people");
-  background-repet: no-repeat;
-  background-size: cover;
-  background-position: top center;
-  background-attachment: fixed;
-  
-}
-.home h1 {
-  position: absolute;
-  top: 15%;
-  right: 10%;
-  font-size: 4em;  
-  z-index: 0;
-  color: #000;
-}
-.about {
-  padding: 50px 164px;
-  text-align: justify;
-  height: 1750px;
-}
-.about h3 {
-  text-align: center;
-}
-.about  p:nth-child(2) {
-  text-align: center;
-  font-style: italic;
-}
-.wrapper-about {
-  width: 100%;
-}
-.wrapper-about::before {
-  content: "";
-    display: table;
-    clear: both;
-}
-.wrapper-about::after {
-  content: "";
-    display: table;
-    clear: both;
-}
+// .content-about-left {
+//   float: left;
+//   width: 50%;
+//   text-align: center;
+//   padding: 15px;
+// }
+// .content-about-left img{
+//   width: 100%;
+// }
 
-.content-about-left {
-  float: left;
-  width: 50%;
-  text-align: center;
-  padding: 15px;
-}
-.content-about-left img{
-  width: 100%;
-}
-
-.content-about-right {
-   float: right;
-   width: 50%;
-   text-align: justify;
-   padding: 15px;
-}
-.skills::before {
-    content: "";
-    display: table;
-    clear: both;
-}
-.skills {
-  text-align: center;
-}
-.skills p:nth-child(even) {
-  text-align: left;
-  font-style: normal;
-  letter-spacing: 2px;
-  margin-bottom: 8px;
-} 
-.html-skill {
-  color: #000 !important;
-  background: #f1f1f1 !important;
-  width: 100%;
-  margin-bottom: 40px; 
-}
-.html-skill div {
-  width: 90%;
-  color: #fff;
-  background-color: #616161;
-  padding: 8px 0;
-}
-.css3-skill {
-  color: #000 !important;
-  background: #f1f1f1 !important;
-  width: 100%;
-  margin-bottom: 40px; 
-}
-.css3-skill div {
-  width: 75%;
-  color: #fff;
-  background-color: #616161;
-  padding: 8px 0;
-}
-.js-skill {
-  color: #000 !important;
-  background: #f1f1f1 !important;
-  width: 100%;
-  margin-bottom: 40px; 
-}
-.js-skill div {
-  width: 12%;
-  color: #fff;
-  background-color: #616161;
-  padding: 8px 0;
-}
-.skills::after {
-    content: "";
-    display: table;
-    clear: both;
-}
+// .content-about-right {
+//    float: right;
+//    width: 50%;
+//    text-align: justify;
+//    padding: 15px;
+// }
+// .skills::before {
+//     content: "";
+//     display: table;
+//     clear: both;
+// }
+// .skills {
+//   text-align: center;
+// }
+// .skills p:nth-child(even) {
+//   text-align: left;
+//   font-style: normal;
+//   letter-spacing: 2px;
+//   margin-bottom: 8px;
+// } 
+// .html-skill {
+//   color: #000 !important;
+//   background: #f1f1f1 !important;
+//   width: 100%;
+//   margin-bottom: 40px; 
+// }
+// .html-skill div {
+//   width: 90%;
+//   color: #fff;
+//   background-color: #616161;
+//   padding: 8px 0;
+// }
+// .css3-skill {
+//   color: #000 !important;
+//   background: #f1f1f1 !important;
+//   width: 100%;
+//   margin-bottom: 40px; 
+// }
+// .css3-skill div {
+//   width: 75%;
+//   color: #fff;
+//   background-color: #616161;
+//   padding: 8px 0;
+// }
+// .js-skill {
+//   color: #000 !important;
+//   background: #f1f1f1 !important;
+//   width: 100%;
+//   margin-bottom: 40px; 
+// }
+// .js-skill div {
+//   width: 12%;
+//   color: #fff;
+//   background-color: #616161;
+//   padding: 8px 0;
+// }
+// .skills::after {
+//     content: "";
+//     display: table;
+//     clear: both;
+// }
 
 .about-img {
   width: 100%;
