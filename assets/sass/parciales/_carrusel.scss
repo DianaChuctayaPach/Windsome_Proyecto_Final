@@ -1,0 +1,12 @@
+ .jumbotron {
+     height: 90vh;
+    // background: none;
+    // padding: 100px 0;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    overflow: hidden; /*es para poder cortar y k no haya croll abajo*/
+    img{
+        height: 100vh;
+    }
+  }

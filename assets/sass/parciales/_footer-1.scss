@@ -1,0 +1,67 @@
+#footer{
+    background: #121212;
+    padding-bottom: 7vh;
+    button{
+        background: #FF9900;
+        color: white;
+        font-size: 18px;
+        height: 50px;
+        border-radius: 0px ;
+    }
+    input{
+        font-size: 18px;
+        height: 50px;
+        padding: 10px;
+        width: 100%;
+    }
+    h2{
+        color: white;
+    }
+    hr{
+        width: 100%;
+        // border: 1px solid white;
+    }
+    .Get{
+        
+        h5 , a{
+        color: white;
+    }
+    }
+    p{
+        color: white;
+    }
+    ul{
+        list-style: none;
+        display: inline;
+        i{
+            color: #8E8E8E;
+            margin-left: 10px;
+            border: 1px solid #8E8E8E;
+            padding: 8px;  
+        }
+        #fb ,#pin{
+            padding: 8px 9px 8px 9px;
+        }
+        i:hover{
+            color: white;
+        }
+        #fb:hover{
+            background: #3B5998;  
+        }
+        #tw:hover{
+            background: #00ACED;
+        }
+        #ins:hover{
+            background: #517FA4;  
+        }
+        #pin:hover{
+            background: #CB2027;  
+        }
+       
+        li{
+            display: inline;
+        }
+
+    }
+
+}

@@ -9,6 +9,11 @@
 @import 'parciales/_WELCOME.scss';
 @import 'parciales/_OUR-TEAM.scss';
 @import 'parciales/_WHAT-ELSE.scss';
+@import 'parciales/_carrusel.scss';
+@import 'parciales/_footer-1.scss';
+@import 'parciales/_portafolio.scss';
+@import 'parciales/_testimonios.scss';
+@import 'parciales/_blog.scss';
 nav{
     #myNavbar{
         float: right;
@@ -20,6 +25,29 @@ nav{
 }
 .espacio{
     height: 10vh;
+}
+#espacio{
+    height: 10vh !important;
+}
+.divflecha{
+    background:#FF9900;
+    height: 10vh;
+    color: white;
+    width: 20%;
+    float: right;
+    z-index: 1000;
+    // position: relative;
+    margin-bottom: 30vh;
+    margin-right: 10vh;
+    span{
+        color: white;
+        font-size: 30px;
+    }
+}
+#liniahr{
+    height: 1vh;
+    background: #FF9900;
+    border: 1px solid #FF9900;
 }
 #flecha{
     padding: 20px;

@@ -9,8 +9,7 @@
     <link rel="shortcut icon" href="assets/img/favicon.ico" type="img/x-icon">
     <title>Diana chuctaya pacheo portafolio</title>
     <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet " href="assets/css/sobre_mi.css" type="text/css ">
-    <!-- <link href="assets/css/font-awesome.css" rel="stylesheet"> -->
+    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
     <!-- fonts-google -->
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <!-- boostrat -->
@@ -21,9 +20,9 @@
     <script src="https://use.fontawesome.com/8addbcd177.js"></script>
 </head>
 
-<body>
+<body  >
 <header>
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel"></div>
+    
     <nav class="navbar navbar-default" id="nav">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -73,46 +72,87 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-        <div class="item active">
-        <img src="assets/img/pexels-photo-370470.jpeg" alt="...">
-        <div class="carousel-caption">
-            ...
-        </div>
-        </div>
-        <div class="item" id="carrusel-img2">
-            <img src="assets/img/pexels-photo-226172-570x380.jpeg" alt="..."  >
-            <div class="carousel-caption">
-                ...
+    <div class="jumbotron">
+        <div class="container">
+            <div id="carousel-tour" class="carousel slide" data-ride="carousel" data-interval="false">
+    
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-tour" data-slide-to="0" class="active js-button-hero-carousel-dots"></li>
+                    <li data-target="#carousel-tour" data-slide-to="1" class="js-button-hero-carousel-dots"></li>
+                    <li data-target="#carousel-tour" data-slide-to="2" class="js-button-hero-carousel-dots"></li>
+                    <li data-target="#carousel-tour" data-slide-to="3" class="js-button-hero-carousel-dots"></li>
+                </ol>
+    
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox" style="height: 307px;">
+                    <div class="item active">
+                       
+                        <h1>
+                            <span class="text-white">
+                                3 months of Premium for $0.99.
+                            </span>
+                        </h1>
+                        <a href="#" class="btn btn-lg btn-solid js-button-hero-get-premium">
+                            Learn More
+                        </a>
+                        <p class="text-center text-white text-signup">
+                            Or sign up for our
+                            <a href="#" class="js-goto-signup">free service</a>.
+                        </p>
+                    </div>
+    
+                    <div class="item">
+                        <h1>
+                            <span class="text-white">
+                                Premium for your whole family.
+                                <br>Just $14.99.
+                            </span>
+                        </h1>
+                        <a href="#" class="btn btn-solid js-button-hero-family">
+                            LEARN MORE
+                        </a>
+                    </div>
+                    <img src="assets/img/pexels-photo-370470.jpeg" alt="">
+                    <div class="item">
+                        <h1>
+                            <span class="text-white">
+                                Students get 50% off Premium.
+                            </span>
+                        </h1>
+                        <a href="#" class="btn btn-solid js-button-hero-student">
+                            LEARN MORE
+                        </a>
+                    </div>
+    
+                    <div class="item">
+                        <h1>
+                            <span class="text-white">
+                                Play Spotify on PlayStation®.
+                            </span>
+                        </h1>
+                        <a href="#" class="btn btn-solid js-button-hero-playstation">
+                            LEARN MORE
+                        </a>
+                    </div>
+                </div>
+    
+                <!-- Controls -->
+                <a class="left carousel-control js-button-hero-carousel-left-arrow" href="#carousel-tour" data-slide="prev">
+                    <span class="icon-prev"></span>
+                    <span class="sr-only">
+                        Previous
+                    </span>
+                </a>
+                <a class="right carousel-control js-button-hero-carousel-right-arrow" href="#carousel-tour" data-slide="next">
+                    <span class="icon-next"></span>
+                    <span class="sr-only">
+                        Next
+                    </span>
+                </a>
             </div>
         </div>
-        <div class="item">
-            <img src="assets/img/pexels-photo-374074.jpeg" alt="..." >
-            <div class="carousel-caption">
-                ...
-            </div>
-        </div>
-        ...
     </div>
-
-    <!-- Controls -->
-    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
 </header>
 <section class="ABOUT-US">
     <div class="container-fluid">
@@ -214,14 +254,14 @@
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2"></div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center todo-botones">
-                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4"></div>
-                        <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+                        <div class="col-xs-12 col-sm-3 col-md-4 col-lg-4"></div>
+                        <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
                             <button class="boton-1">SOME FACTS </button>
                         </div>
-                        <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+                        <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
                             <button class="boton-2">CONTACT US</button>
                         </div>
-                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4"></div>
+                        <div class="col-xs-12 col-sm-3 col-md-4 col-lg-4"></div>
                     </div>
                 </div>
             </div>
@@ -571,12 +611,179 @@
     </div>
     
 </section>
+<section class="portafolio" id="portafolio">
+    <div class="container-fluid text-center">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 titulo">
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-right">
+                        <hr id="izquierda">
+                    </div>
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+                        <h1>PORTAFOLIO</h1>
+                    </div>
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-left">
+                        <hr id="derecha">
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                    <ul class="filter-list">
+                        <li class="filter" data-filter="all">All</li>
+                        <li class="filter" data-filter="css">CSS</li>
+                        <li class="filter" data-filter="html">HTML</li>
+                        <li class="filter" data-filter="web-design">Web Design</li>
+                        <li class="filter" data-filter="web-development">Web Development</li>
+                        <li class="filter" data-filter="woo-commerce">Woo-Commerce</li>
+                        <li class="filter" data-filter="wordpress">WordPress</li>
+                    </ul>
+                
+                </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="espacio"></div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <img src="assets/img/smart-watch-821557_640-570x380.jpg" alt="">
+                        <p class="text-left h4"><strong> Inceptos Himenaeos</strong></p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <img src="assets/img/office-336368_640-570x380.jpg" alt="">
+                        <p class="text-left h4"><strong>Nullam Non Placerat</strong></p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <img src="assets/img/apple-490485_640-570x380.jpg" alt="">
+                        <p class="text-left h4"><strong>Dignissim Egestas</strong></p>
+                    </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="espacio"></div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <img src="assets/img/iphone-410324_640-570x380.jpg" alt="">
+                        <p class="text-left h4">
+                            <strong> Inceptos Himenaeos</strong>
+                        </p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <img src="assets/img/smartphone-1894723_640-570x380.jpg" alt="">
+                        <p class="text-left h4">
+                            <strong>Nullam Non Placerat</strong>
+                        </p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <img src="assets/img/smartphone-623722_640-570x380.jpg" alt="">
+                        <p class="text-left h4">
+                            <strong>Dignissim Egestas</strong>
+                        </p>
+                    </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="espacio"></div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <img src="assets/img/people-2605980_640-570x380.jpg" alt="">
+                        <p class="text-left h4">
+                            <strong> Inceptos Himenaeos</strong>
+                        </p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <img src="assets/img/imac-606765_640-570x380.jpg" alt="">
+                        <p class="text-left h4">
+                            <strong>Nullam Non Placerat</strong> 
+                            <!-- falta canbiar el parrafo para arriba-->
+                        </p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <img src="assets/img/stock-624712_640-570x380.jpg" alt="">
+                        <p class="text-left h4">
+                            <strong>Suspendisse Consectetur</strong>
+                        </p>
+                    </div>
+     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="espacio"></div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <img src="assets/img/ipad-820272_640-570x380.jpg" alt="">
+                        <p class="text-left h4">
+                            <strong> Nam Volutpat Libero</strong>
+                        </p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <img src="assets/img/student-849825_640-570x380.jpg" alt="">
+                        <p class="text-left h4">
+                            <strong>Consectetur Adipiscing Elit</strong>
+                        </p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <img src="assets/img/laptop-2592785_640-570x380.jpg" alt="">
+                        <p class="text-left h4">
+                            <strong>Lorem Ipsum Dolor</strong>
+                        </p>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="testimonios">
+    <div class="container-fluid text-center">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 titulo">
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-right">
+                        <hr id="izquierda">
+                    </div>
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+                        <h1>TESTIMONIALS</h1>
+                    </div>
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-left">
+                        <hr id="derecha">
+                    </div>
+                </div>
+    
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="espacio"></div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="blog">
+    <div class="container-fluid text-center">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 titulo">
+                    <div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 text-right">
+                        <hr id="izquierda">
+                    </div>
+                    <div class="col-xs-4 col-sm-4 col-md-6 col-lg-6 text-center">
+                        <h1>LATEST FROM OUR BLOG</h1>
+                    </div>
+                    <div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 text-left">
+                        <hr id="derecha">
+                    </div>
+                </div>
+             
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="espacio"></div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <img src="assets/img/pexels-photo-226172-570x380.jpeg" alt="">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <img src="assets/img/startup-photos-570x380.jpg" alt="">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <img src="assets/img/laptop-2557574_1920-570x380.jpg" alt="">
+                    </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="espacio"></div>
 
-
-<!-- <div id="portfolio" class="about-img">
-    <h1>Portfolio</h1>
-</div> -->
-
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <img src="assets/img/" alt="">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <img src="assets/img/" alt="">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <img src="assets/img/" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <section class="seccion-amarillo">
 </section>
 <div class="contact-img" id="contact">
@@ -657,20 +864,106 @@
             </div>
         </div>
     </div>
-    
-    
 </div>
+<div id="liniahr"></div>
+<section id="footer">
+        <div class="container">
+            <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 titulo text-left">
+                        <h2><strong>Search Here</strong> </h2>
+                        <hr>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search...">
+                                <span class="input-group-btn">
+                                    <button class="btn " type="button">Search</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 Get">
+                    <h2><strong>Get In Touch</strong> </h2>
+                    <hr>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <h5>
+                            <strong>
+                                <i class="fa fa-clock-o"></i>Business Hour :</strong> Monday – Friday : 10am to 5pm</h5>
+                        <hr>
+                    </div>
+                    
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <h5>
+                            <strong>
+                            <i class="fa fa-map-marker"></i>Address :</strong> Panipokhari, 44600, Bagmati, Nepal</h5>
+                        <hr>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <h5>
+                            <strong>
+                                <i class="fa fa-envelope-o"></i>E-mail :</strong>
+                            <a href="mailto:info@winsome.com">info[@]winsome.com</a>
+                        </h5>
+                        <hr>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <h5>
+                            <strong>
+                                <i class="fa fa-phone"></i>Phone Line :</strong>
+                            <a href="tel:+9871230456">(987) 123-0456</a>
+                        </h5>
+                        
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <h2><strong>About Us</strong> </h2>
+                    <hr>
+                    
+                    <p class="text-white h4">Winsome is responsive multipurpose one page theme. It has scrolling sections in home page. Winsome can be used for business,
+                    corporate, portfolio, digital agency, landing page, product showcase and all informative websites.</p>
+                    <br><br><ul id="menu-social-menu" class="menu">
+                        <li id="menu-item-4844" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4844">
+                            <a href="http://facebook.com">
+                                <i class="fa fa-facebook fa-lg" aria-hidden="true" id="fb"></i>
+                            </a>
+                        </li>
+                        <li id="menu-item-4845" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4845">
+                            <a href="http://twitter.com">
+                                <i class="fa fa-twitter fa-lg" aria-hidden="true" id="tw"></i>
+                            </a>
+                        </li>
+                        <li id="menu-item-4846" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4846">
+                            <a href="http://instagram.com">
+                                <i class="fa fa-instagram fa-lg" aria-hidden="true" id="ins"></i>
+                            </a>
+                        </li>
+                        <li id="menu-item-4847" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4847">
+                            <a href="http://pinterest.com">
+                                <i class="fa fa-pinterest-p fa-lg" aria-hidden="true" id="pin"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
 
-
-<div class="container">
-    <div class="row">
-
-        <div id="flecha">
-            <span class="glyphicon glyphicon-chevron-up" aria-hidden="true" id="icon-flecha">ggg</span>
+            </div>
+    
         </div>
-
     </div>
-</div>
+    </div>
+</section>
+<!-- <section class="divflecha">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div id="flecha">
+                <span class="glyphicon glyphicon-chevron-up" aria-hidden="true" id="icon-flecha">ggg</span>
+            </div>
+            </div>
+        </div>
+    </div>
+</section> -->
 <footer>
     <div class="col-xs-12 col-sm-6 col-md-6 text-left "><span class="texto1">Copyright © All rights reserved.</span></div> 
     <div class="col-xs-12 col-sm-6 col-md-6 text-right "><span class="texto2"></span>Winsome by Promenade Themes</div>

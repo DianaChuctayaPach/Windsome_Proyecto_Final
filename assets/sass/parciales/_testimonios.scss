@@ -1,0 +1,36 @@
+.testimonios{
+    height: 80vh;
+    background: #FF9900;
+     padding: 10vh 0vh 10vh 0;
+    img{
+        width: 100%;
+    }
+    img:hover{
+        opacity: 5;
+        fill-opacity: 10;
+    }
+     .titulo{
+        margin-top: 10vh;
+        margin-bottom: 40px;
+        hr{
+            // height: 1px;
+            background:white ;
+            width: 60%;
+            border: 1px solid white;
+            // position: absolute;
+        }
+        h1{
+            position: relative;
+            margin-top: 0px;
+            color:white;
+            font-weight: bold;
+        }
+        #izquierda{
+            margin-right: -5px;
+        }
+        #derecha{
+            margin-left: -5px;
+        }
+    }
+ 
+}

@@ -36,7 +36,7 @@
   color: #FF9900 !important; }
 
 .navbar {
-  background-color: rgba(255, 255, 255, 0.055);
+  background-color: rgba(255, 254, 254, 0.007);
   color: black !important;
   transition: all 0.15s ease;
   position: absolute;
@@ -291,6 +291,144 @@ footer {
   height: 50vh;
   width: 500px; }
 
+.jumbotron {
+  height: 90vh;
+  text-align: center;
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+  /*es para poder cortar y k no haya croll abajo*/ }
+  .jumbotron img {
+    height: 100vh; }
+
+#footer {
+  background: #121212;
+  padding-bottom: 7vh; }
+  #footer button {
+    background: #FF9900;
+    color: white;
+    font-size: 18px;
+    height: 50px;
+    border-radius: 0px; }
+  #footer input {
+    font-size: 18px;
+    height: 50px;
+    padding: 10px;
+    width: 100%; }
+  #footer h2 {
+    color: white; }
+  #footer hr {
+    width: 100%; }
+  #footer .Get h5, #footer .Get a {
+    color: white; }
+  #footer p {
+    color: white; }
+  #footer ul {
+    list-style: none;
+    display: inline; }
+    #footer ul i {
+      color: #8E8E8E;
+      margin-left: 10px;
+      border: 1px solid #8E8E8E;
+      padding: 8px; }
+    #footer ul #fb, #footer ul #pin {
+      padding: 8px 9px 8px 9px; }
+    #footer ul i:hover {
+      color: white; }
+    #footer ul #fb:hover {
+      background: #3B5998; }
+    #footer ul #tw:hover {
+      background: #00ACED; }
+    #footer ul #ins:hover {
+      background: #517FA4; }
+    #footer ul #pin:hover {
+      background: #CB2027; }
+    #footer ul li {
+      display: inline; }
+
+.portafolio {
+  padding: 10vh 0vh 10vh 0; }
+  .portafolio img {
+    width: 100%; }
+  .portafolio img:hover {
+    opacity: 5;
+    fill-opacity: 10; }
+  .portafolio .titulo {
+    margin-top: 10vh;
+    margin-bottom: 40px; }
+    .portafolio .titulo hr {
+      background: #FF9900;
+      width: 60%;
+      border: 1px solid #FF9900; }
+    .portafolio .titulo h1 {
+      position: relative;
+      margin-top: 0px;
+      color: #000;
+      font-weight: bold; }
+    .portafolio .titulo #izquierda {
+      margin-right: -5px; }
+    .portafolio .titulo #derecha {
+      margin-left: -5px; }
+  .portafolio .filter-list {
+    display: inline; }
+    .portafolio .filter-list li {
+      text-decoration: none;
+      list-style: none;
+      margin-left: 20px;
+      display: inline;
+      font-size: 18px; }
+
+.testimonios {
+  height: 80vh;
+  background: #FF9900;
+  padding: 10vh 0vh 10vh 0; }
+  .testimonios img {
+    width: 100%; }
+  .testimonios img:hover {
+    opacity: 5;
+    fill-opacity: 10; }
+  .testimonios .titulo {
+    margin-top: 10vh;
+    margin-bottom: 40px; }
+    .testimonios .titulo hr {
+      background: white;
+      width: 60%;
+      border: 1px solid white; }
+    .testimonios .titulo h1 {
+      position: relative;
+      margin-top: 0px;
+      color: white;
+      font-weight: bold; }
+    .testimonios .titulo #izquierda {
+      margin-right: -5px; }
+    .testimonios .titulo #derecha {
+      margin-left: -5px; }
+
+.blog {
+  height: 100vh;
+  padding: 10vh 0vh 10vh 0; }
+  .blog img {
+    width: 100%; }
+  .blog img:hover {
+    opacity: 5;
+    fill-opacity: 10; }
+  .blog .titulo {
+    margin-top: 10vh;
+    margin-bottom: 40px; }
+    .blog .titulo hr {
+      background: #FF9900;
+      width: 60%;
+      border: 1px solid #FF9900; }
+    .blog .titulo h1 {
+      position: relative;
+      margin-top: 0px;
+      color: #000;
+      font-weight: bold; }
+    .blog .titulo #izquierda {
+      margin-right: -5px; }
+    .blog .titulo #derecha {
+      margin-left: -5px; }
+
 nav #myNavbar {
   float: right; }
 
@@ -299,6 +437,27 @@ nav #myNavbar {
 
 .espacio {
   height: 10vh; }
+
+#espacio {
+  height: 10vh !important; }
+
+.divflecha {
+  background: #FF9900;
+  height: 10vh;
+  color: white;
+  width: 20%;
+  float: right;
+  z-index: 1000;
+  margin-bottom: 30vh;
+  margin-right: 10vh; }
+  .divflecha span {
+    color: white;
+    font-size: 30px; }
+
+#liniahr {
+  height: 1vh;
+  background: #FF9900;
+  border: 1px solid #FF9900; }
 
 #flecha {
   padding: 20px;
