@@ -266,6 +266,8 @@ footer {
 
 .WHAT-ELSE {
   padding-bottom: 10vh; }
+  .WHAT-ELSE img {
+    width: 50%; }
   .WHAT-ELSE .titulo {
     margin-top: 10vh;
     margin-bottom: 40px; }
@@ -286,10 +288,6 @@ footer {
     background-color: #FF9900; }
   .WHAT-ELSE .progress-bar {
     height: 15px; }
-
-#what img {
-  height: 50vh;
-  width: 500px; }
 
 .jumbotron {
   height: 90vh;
